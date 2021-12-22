@@ -49,11 +49,14 @@
 		</header>
 		<main class="page-main">
 			<!--Hero-->
+			<div class="backdrop is-hidden" data-modal>
+				<div class="modal"></div>
+				<button data-modal-close></button>
+			</div>
 			<section class="hero">
 				<h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-				<button type="button" class="title-button">Заказать услугу</button>
+				<button type="button" class="title-button" data-modal-open>Заказать услугу</button>
 			</section>
-
 			<!--Benefits-->
 			<section class="section">
 				<h2 class="hidden">Плюсы работы с WebStudio</h2>
@@ -379,6 +382,7 @@
 				</div>
 			</div>
 		</footer>
+
 		<script src="./js/modal.js"></script>
 	</body>
 </html>
