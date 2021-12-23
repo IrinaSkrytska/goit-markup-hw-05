@@ -520,10 +520,4 @@ button:focus {
 	cursor: pointer;
 	top: 8px;
 	right: 8px;
-	padding: 0;
-}
-.cross {
-	fill: #000;
-	height: 11px;
-	width: 11px;
 }
