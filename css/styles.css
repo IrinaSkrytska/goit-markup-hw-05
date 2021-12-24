@@ -458,10 +458,12 @@ button:focus {
 	opacity: 0;
 }
 .clients-photo:hover .box::before {
+	content: "";
 	transform: translateY(0);
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-photo:hover .overlay::before {
+	content: "";
 	transform: translateY(0);
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
