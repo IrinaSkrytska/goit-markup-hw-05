@@ -51,9 +51,12 @@
 			<!--Hero-->
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
-					<button class="modal-cross" data-modal-close>
+					<button type="button" class="modal-cross" data-modal-close>
 						<p class="cross">&#10006;</p>
 					</button>
+					<form>
+						<b class="modal-headline">Оставьте свои данные, мы вам перезвоним</b>
+					</form>
 				</div>
 			</div>
 			<section class="hero">
@@ -383,9 +386,23 @@
 						</li>
 					</ul>
 				</div>
+				<div class="subscribe-footer">
+					<h2 class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+					<div class="subscribe-form">
+						<form class="e-mail-form">
+							<label for="mail"></label>
+							<input class="mail-input" type="email" name="mail" placeholder="E-mail" id="mail" />
+							<button class="subscribe-button" type="submit">
+								Подписаться
+								<svg class="telegram-svg" width="24" height="24">
+									<use href="images/sprite.svg#icon-telegram"></use>
+								</svg>
+							</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</footer>
-
 		<script src="./js/modal.js"></script>
 	</body>
 </html>
